@@ -98,20 +98,20 @@ namespace _05_LoopsWithStars
             //    {
             //        Console.Write(" ");
             //    }
-            //    for (int k = 1; k <= 2*i-1; k++)
+            //    for (int k = 1; k <= 2 * i - 1; k++)
             //    {
             //        Console.Write("*");
             //    }
             //    Console.WriteLine();
             //}
             //// alt kısım
-            //for (int i = n-1; i>= 1; i--)
+            //for (int i = n - 1; i >= 1; i--)
             //{
             //    for (int j = n - 1; j > 0; j--)
             //    {
             //        Console.Write(" ");
             //    }
-            //    for (int k = 1; k<=2*i-1 ;k++)
+            //    for (int k = 1; k <= 2 * i - 1; k++)
             //    {
 
             //        Console.Write("*");
@@ -123,15 +123,15 @@ namespace _05_LoopsWithStars
 
             #region Piramit
 
-            //int n = 5; 
-            //for (int i = 1; i <= n; i++) 
+            //int n = 5;
+            //for (int i = 1; i <= n; i++)
             //{
-            //    for (int j = 1; j <= n - i; j++) 
+            //    for (int j = 1; j <= n - i; j++)
             //    {
             //        Console.Write(" ");
             //    }
 
-            //    for (int k = 1; k <= (2 * i - 1); k++) 
+            //    for (int k = 1; k <= (2 * i - 1); k++)
             //    {
             //        Console.Write("*");
             //    }
@@ -140,16 +140,13 @@ namespace _05_LoopsWithStars
             //}
 
 
-
-
-
             #endregion
 
             #region Ters Piramit
 
-            //int n = 5; 
+            //int n = 5;
 
-            //for (int i = 0; i < n; i++) 
+            //for (int i = 0; i < n; i++)
             //{
             //    for (int j = 0; j < i; j++)
             //    {
@@ -163,7 +160,42 @@ namespace _05_LoopsWithStars
             //}
 
             #endregion
-                
+
+            #region tam elmas
+            //int n = 15;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = 1; j <= n - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= (2 * i - 1); k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine();
+            //}
+            
+            //for (int x = 0; x < n; x++)
+            //{
+
+            //    for (int y = 0; y < x; y++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int z = 0; z < (2 * (n - x)-1); z++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+           
+            
+
+            #endregion
+
             Console.Read();
 
         }

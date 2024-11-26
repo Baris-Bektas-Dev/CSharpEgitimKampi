@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -135,6 +136,109 @@ namespace ConsoleApp1
             //Console.WriteLine(ones + "-" + tens + "-" + hundreds);
             //sum=ones + tens + hundreds;
             //Console.WriteLine(sum);
+            #endregion
+
+
+            #region Loops Tekrar
+
+            //kullanıcıdan alınan sayıları 1 den n'e akdar olacak şekilde toplayan uygulama
+
+            //Console.Write("Lütfen bir sayı giriniz: ");
+            //int n =int.Parse(Console.ReadLine());
+            //int total=0;
+            //string counter = "";
+            //for (int i = 1;i < n; i++)
+            //{
+
+            //    total += i;
+            //    if (i == n) // Son elemansa toplama işareti ekleme
+            //    {
+            //        counter += i;
+            //    }
+            //    else // Diğer durumlarda toplama işareti koy
+            //    {
+            //        counter += i + " + ";
+            //    }
+
+            //}
+            //Console.WriteLine("Toplam: " + total);
+            //Console.WriteLine("(" + counter + " = " + total + ")");
+
+
+            // kalvyeden girilen sayıyı tahmin etme oyunu
+
+            //Random random= new Random();
+            //int randomnumber = random.Next(1,100);
+
+            //Console.Write("Bir sayı tahmin edin: ");
+            //int guessnumber = int.Parse(Console.ReadLine());
+            //while (guessnumber != randomnumber)
+            //{
+            //    Console.Write("Bir sayı tahmin edin: ");
+            //    guessnumber = int.Parse(Console.ReadLine());
+
+            //}
+            //Console.WriteLine("Sayıyı buldunuz.");
+
+            //kullanıcıdan alınan sayının çarpım tablosunu yapan program
+            //Console.Write("Bir sayı giriniz: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    int result;
+            //    result = i * n;
+            //    Console.WriteLine(n+"x"+i+"="+result);
+
+            //}
+
+            //1 den 10 a kadar olan sayıların çarpım tablosu
+
+            //for (int n=1;n<=10;n++) 
+            //{
+
+            //    for (int i = 1; i <= 10; i++)
+            //    {
+            //        int result;
+            //        result = i * n;
+            //        Console.Write("|"+n + " x " + i + " = " + result + "|  ");
+
+            //    }
+            //    Console.WriteLine();
+            //}
+            // Üçgenler
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = 1; i < 6; i++)
+            //{
+            //    for (int k = 1; k <= i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int j = 1; j <= 5; j++)
+            //{
+            //    for (int l =5;l>=j;l--)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+
+
+
             #endregion
 
             Console.Read();
