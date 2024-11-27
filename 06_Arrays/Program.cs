@@ -132,20 +132,20 @@ namespace _06_Arrays
 
             #region Kullanıcıdan Değer Alma
 
-            //kullanıcının girdiği şehirleri yazan program
+            kullanıcının girdiği şehirleri yazan program
 
-            //string[] cities = new string[5];
-            //for (int i = 0; i < cities.Length; i++) 
-            //{
-            //    Console.Write($"lürfen {i + 1}. şehiri giriniz: ");
-            //    cities[i] = Console.ReadLine();
-            //}
-            //Console.WriteLine();
-            //Console.WriteLine("-----------------------------");
-            //for (int i = 0;i < cities.Length; i++)
-            //{
-            //    Console.WriteLine(cities[i]);   
-            //}
+            string[] cities = new string[5];
+            for (int i = 0; i < cities.Length; i++)
+            {
+                Console.Write($"lürfen {i + 1}. şehiri giriniz: ");
+                cities[i] = Console.ReadLine();
+            }
+            Console.WriteLine();
+            Console.WriteLine("-----------------------------");
+            for (int i = 0; i < cities.Length; i++)
+            {
+                Console.WriteLine(cities[i]);
+            }
 
 
 
@@ -158,12 +158,12 @@ namespace _06_Arrays
             //Console.WriteLine(sum);
 
 
-            //int[ ]numbers = { 11, 42,33,44,55,66,77,88,99 };
+            //int[] numbers = { 11, 42, 33, 44, 55, 66, 77, 88, 99 };
             //Console.WriteLine("çift sayılar");
             //Console.WriteLine("------------");
             //for (int i = 0; i < numbers.Length; i++)
             //{
-            //    if (numbers[i] %2==0)
+            //    if (numbers[i] % 2 == 0)
             //    {
             //        Console.WriteLine(numbers[i]);
             //    }
