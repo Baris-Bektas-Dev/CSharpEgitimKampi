@@ -138,7 +138,6 @@ namespace ConsoleApp1
             //Console.WriteLine(sum);
             #endregion
 
-
             #region Loops Tekrar
 
             //kullanıcıdan alınan sayıları 1 den n'e akdar olacak şekilde toplayan uygulama
