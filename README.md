@@ -69,6 +69,16 @@
   - Kullanıcıdan tablo seçimi alarak SQL ile bilgi aktaran bir uygulama.  
 - **Kullanılanlar**:  
   - `sqlConnection` ve `sqlCommand` sınıfları.
+  - ---
+
+### **Proje 10 - Veritabanında CRUD İşlemleri**
+- **Konu**:  
+  - CRUD işlemleri: `Create`, `Read`, `Update`, `Delete`.
+- **Detaylar**:  
+  - `sqlcommand` ile parametreler ve `AddWithValue` kullanılarak veriler tabloya eklendi.  
+  - `sqladapter` ve `datatable` ile `For Each` döngüleri kullanılarak tablodaki veriler veritabanından çekildi.  
+  - `UPDATE FROM` ile veri güncellendi, `DELETE FROM` ile veri silindi.
+
 
 ---
 
