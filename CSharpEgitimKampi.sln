@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_DatabaseProject", "09_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_DatabaseCrud", "10_DatabaseCrud\10_DatabaseCrud.csproj", "{2D5A2A95-42C1-42DB-B8F1-F5D9C2AD989B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EFProject", "..\CSharpEgitimKampi301\CSharpEgitimKampi301.EFProject\CSharpEgitimKampi301.EFProject.csproj", "{BD60010F-A480-447C-98A4-2A99BFB31D49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpEgitimKampi301.EFProjectFolder", "CSharpEgitimKampi301.EFProjectFolder", "{A497A359-4E6A-46A7-AFDA-3B0ADE65ACB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,9 +73,16 @@ Global
 		{2D5A2A95-42C1-42DB-B8F1-F5D9C2AD989B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5A2A95-42C1-42DB-B8F1-F5D9C2AD989B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5A2A95-42C1-42DB-B8F1-F5D9C2AD989B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD60010F-A480-447C-98A4-2A99BFB31D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD60010F-A480-447C-98A4-2A99BFB31D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD60010F-A480-447C-98A4-2A99BFB31D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD60010F-A480-447C-98A4-2A99BFB31D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD60010F-A480-447C-98A4-2A99BFB31D49} = {A497A359-4E6A-46A7-AFDA-3B0ADE65ACB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7A7B191-D1AC-4263-9548-A34E859ACA08}
