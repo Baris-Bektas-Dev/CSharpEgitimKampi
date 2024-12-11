@@ -94,6 +94,7 @@
   - **Package Manager Console** üzerinden `Migration` komutları ile veritabanı oluşturma ve güncelleme işlemleri yaptım.
 
 ---
+![resim_2024-12-11_165958193](https://github.com/user-attachments/assets/bcd01233-8752-480e-93af-4fc1b9f2b0ba)
 
 ### **Proje 11.2 - Database First ve Windows Form Uygulamaları**
 - **Konu**:  
