@@ -78,6 +78,32 @@
   - `sqlcommand` ile parametreler ve `AddWithValue` kullanılarak veriler tabloya eklendi.  
   - `sqladapter` ve `datatable` ile `For Each` döngüleri kullanılarak tablodaki veriler veritabanından çekildi.  
   - `UPDATE FROM` ile veri güncellendi, `DELETE FROM` ile veri silindi.
+---
+
+### **Proje 11 - Entity Framework ve Dosya Yapısı**
+- **Konu**:  
+  - **Entity Framework** ile çalışırken kullanılan dosya yapısını öğrendim.  
+  - `Code First` ve `Database First` yaklaşımlarını öğrendim ve ikisini de deneyimledim.  
+  - **Access Modifier** ayarları (`public`, `private`, `internal`, `protected`) hakkında bilgi sahibi oldum.  
+  - **Field**, **Variable** ve **Property** arasındaki farkları ve kullanım alanlarını gördüm.  
+  - `Code First` yaklaşımı ile:  
+    - `Entity Layer`'da `Class` ile tablo, `Property`'ler ile sütun oluşturdum.  
+    - **Single Responsibility** kuralını öğrendim.  
+    - Katmanlar arası iletişimi referanslar ile sağladım ve tablolar arası "bire çok" bağlantılar kurdum.  
+  - `app.config` üzerinden veri tabanı bağlantısı kurma ve veritabanı türü tanıtımı hakkında bilgi edindim.  
+  - **Package Manager Console** üzerinden `Migration` komutları ile veritabanı oluşturma ve güncelleme işlemleri yaptım.
+
+---
+
+### **Proje 11.2 - Database First ve Windows Form Uygulamaları**
+- **Konu**:  
+  - `Database First` yaklaşımı ile:  
+    - **ADO.NET Entity Data Model** kullanarak MS SQL Server'da oluşturduğum veritabanı tasarımını projeye entegre ettim.  
+  - **Windows Form Uygulamaları** geliştirmeye başladım.  
+    - **Entity Framework** metotlarını kullanarak uygulamalar oluşturdum.  
+    - **LINQ** sorgularını kullanarak:  
+      - Daha anlaşılabilir ve görsel olarak rahat erişilebilir uygulamalar geliştirdim.  
+      - Bazı sorgular ile kullanıcıya farklı bilgileri görsel ve basit bir şekilde aktardım.
 
 
 ---
